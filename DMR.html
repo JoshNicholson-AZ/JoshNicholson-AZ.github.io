@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josh Nicholson Portfolio</title>
+
+    <script src="https://kit.fontawesome.com/a379fa4b41.js" crossorigin="anonymous"></script>
+
+    <!-- UPDATE FONTS HERE -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="app.css">
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <img src="Logo.jpg" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- SECTION -->
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            Podcast <strong>Drunk Movie Rants</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">WordPress Website</p>
+        <img src="avatar.jpg" alt="" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <a href="https://drunkmovierants.com/">
+            <img src="DMR.JPG" alt="">
+        </a>
+        <p>
+            A friend of mine, Alonzo O'Leary, that I serve with in the military wanted to start a podcast as he prepares
+            for a Masters in
+            Film. Once the podcast began, we decided that having a website would build credibility and be an excellent
+            outlet for gaining new listeners.
+        </p>
+        <p>
+            <b>This was my first website and the idea of creating, hosting, and maintaining a website
+                was overwhelming.</b> I took it slow and purchased a domain name, then a hosting platform, and from
+            there I started
+            understanding WordPress. In my evenings after work when I would browse WordPress,
+            I was able to learn the layouts, main themes and how to interact with those, how to build
+            pages, and change content.
+        </p>
+        <p>
+            <b><a href="https://drunkmovierants.com/">Click here to visit -Drunk Movie Rants- WordPress website</a>
+            </b>
+        </p>
+        <p>
+            What I found very interesting were the plugins which added a wealth of creative options.
+            I installed plugins that helped me build a newsletter, add security to the site, podcast subsribe buttons,
+            and track stats. The plugin that proved most useful was Elementor. It gave me a wide amount of options to
+            create themes and design the layout of the website.
+        </p>
+        <p>
+            My next challenge was figuring out how to create a media player to play each episode on the website. The
+            <b><a href="https://castos.com/">Seriously Simple
+                    Podcast</a></b> plugin with a widget built into the Elementor template was the perfect tool. It
+            allowed me
+            to drag and drop
+            the media player into the template and upload a sidebar picture, change colors, style, etc. and <b>it works
+                in both desktop
+                and mobile formats through the web browser. As a newcomer to web developing, this was just exciting!
+            </b>
+        </p>
+        <img src="DMRmediaplayer.JPG" alt="">
+        <p>
+            As more of the episodes kept flowing in and the podcast evovled, we decided that having an outtakes section
+            would be a great way to add content for listeners. I decided that we needed a new subpage that would host
+            the
+            outtakes and I added one to the header. A problem I had to figure out was -- <b>how do I filter the podast
+                episode feed within WordPress?</b>
+            I was getting outtakes in the episodes only feed. I spent hours looking into tags, filters, podcast feeds,
+            forums on the Elementor website, etc.
+            Eventually, I understood that I could label each podcast page with a specific TAG. I created one for
+            EPISODES
+            and another for OUTTAKES.
+            Once that was set up, I realized that within the elementor feed under POST QUERY there were EXCLUDE
+            CATERGORIES that were linked to the tags
+            I created for each page. <b>By excluding certain tags within the post query, I removed the content I didn't
+                want on specific feeds!</b>
+        </p>
+        <img src="DMRepisodes.JPG" alt="">
+        <p>
+            We also built an Instagram page and I researched an option to install a plugin that would add a social media
+            widget
+            within Elementor. I found <a href="https://rebelcode.com/">REBELCODE</a> and all I had to do was link my
+            Instgram credentials
+            to the plugin and from there edit and adjust the widget to fit our home page. <b>The results and performance
+                are outstanding
+                and it is just a testament to how powerful solid code can make our projects.</b>
+        </p>
+        <img src="DMRinstagram.JPG" alt="">
+        <p>
+            Being my first WordPress site, I was surprised at the simplicity of the
+            platform
+            and how easy it was to update in real time and connect with a hosting website. WordPress appealed to me
+            initially because
+            25%+ of sites on the web use it as their platform of choice and it is intuitivie for beginners. As I
+            continue to work on the site, I am having a difficult time
+            adpating the site to be compatible with desktop and mobile versions. The difficulty is identifying where the
+            problem is coming from
+            and if I'll be able to fix it because I don't have full control over the plugins or platform. The
+            more I continue to study HTML, CSS,
+            and Javascript, the more I realize how limited WordPress can be and how you have to redevelop WordPress when
+            it could
+            just be easier to build a site from scratch and retain full control over each layer of the site.
+        </p>
+        <p>
+            <b>All shortcomings and progress aside, this has been a very rewarding project and I'll continue to upgrade
+                the
+                podcast
+                site as I learn more and look forward to maintaining it for years to come.</b>
+        </p>
+
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <a href="mailto:joshn714@gmail.com" class="footer__link">Joshn714@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/josh-nicholson-04400147/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.github.com/PinWizAZ">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="http://www.instagram.com/skyedronephotography">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

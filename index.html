@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josh Nicholson Portfolio</title>
+
+    <script src="https://kit.fontawesome.com/a379fa4b41.js" crossorigin="anonymous"></script>
+
+    <!-- UPDATE FONTS HERE -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="app.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="Logo.jpg" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- INTRODUCTION -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Josh Nicholson</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Developer</p>
+        <img src="avatar.jpg" alt="Josh Smiling" class="intro__img">
+    </section>
+
+    <!-- MY SERVICES -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Web Development</h3>
+                <p>
+                    I am currently studying HTML, CSS, and Javascript and other various
+                    techniques in web development. Enrolled in courses on Udemy and completing
+                    projects that are outlined below in my projects.
+                </p>
+            </div> <!-- / service -->
+            <div class="service">
+                <h3>WordPress</h3>
+                <p>
+                    My first web development project was making a website for a podcast that I
+                    co-created with a friend. The objective was to have a presence online but also
+                    another platform to host the episodes via a media player and keep our social media
+                    current on the site as well.
+                </p>
+            </div> <!-- / service -->
+            <div class="service">
+                <h3>Python</h3>
+                <p>
+                    While I was completing my Masters thesis, I used a program called R to analyze the scientific
+                    data that I was collecting. With that experience and growth, I became more interested in learning
+                    Python and how to write and code the language. I have completed one Udemy course and many projects.
+                </p>
+            </div> <!-- / service -->
+        </div> <!-- / services -->
+
+        <a href="#work" class="btn">My Projects</a>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Self taught developer out of Arizona</p>
+
+        <div class="about-me__body">
+            <p>
+                I live in Arizona with my wife and two girls. Currently studying web development
+                in my spare time and working to get my foot in the door in the development industry.
+                Every job I have held in the last 10 years, there was always a coding project that I would
+                volunteer for. For example, learning Python to statiscally analyze my Masters thesis data or
+                programming an environmental data logger to collect and communicate air quality information
+                to the department server. Programming is powerful and I want to learn more and be a part
+                of the developing community full time.
+            </p>
+            <p>
+                <a href="Resume2021.pdf" class="btn">See My Resume</a>
+            </p>
+        </div>
+
+        <img src="avatar2.jpg" alt="Josh Smiling" class="about-me__img">
+    </section>
+
+    <!-- MY WORK -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Projects</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="DMR.html" class="portfolio__item">
+                <img src="DMR.JPG" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 02 -->
+            <a href="#.html" class="portfolio__item">
+                <img src="work2.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 03 -->
+            <a href="#.html" class="portfolio__item">
+                <img src="work3.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 04 -->
+            <a href="#.html" class="portfolio__item">
+                <img src="work4.jpg" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <a href="mailto:joshn714@gmail.com" class="footer__link">Joshn714@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/josh-nicholson-04400147/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.github.com/PinWizAZ">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="http://www.instagram.com/skyedronephotography">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
