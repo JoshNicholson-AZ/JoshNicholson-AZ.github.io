@@ -333,6 +333,14 @@ header {
         margin-right: auto;
     }
     
+    /* code I added to fix 'services' columns not aligned properly */
+    /* code not part of original, patch to fix 3 columns not flexing properly and kept leaning to the left this code balances so that each div is equal.
+    SOURCE -- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Controlling_Ratios_of_Flex_Items_Along_the_Main_Ax --  */
+    .services > * {
+        flex: 1 1 0;
+    }
+
+    
     .service + .service {
         margin-left: 2em;
     }
